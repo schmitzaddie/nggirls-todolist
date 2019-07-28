@@ -18,12 +18,12 @@ import { TodoItem } from "../interfaces/todo-item";
 })
 export class ListManagerComponent implements OnInit {
   todoList: TodoItem[] = [
-    { title: "install NodeJS" },
-    { title: "install Angular CLI" },
-    { title: "create new app" },
-    { title: "serve app" },
-    { title: "develop app" },
-    { title: "deploy app" }
+    { title: "Grocery Shop" },
+    { title: "Car Wash" },
+    { title: "Vacuum Living Room" },
+    { title: "Dust Dining Room" },
+    { title: "Clean Bathroom" },
+    { title: "Unload Dishwasher" }
   ];
 
   constructor() {}
